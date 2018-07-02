@@ -10,6 +10,8 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+require('dotenv').config()
+
 const GITHUB_BASE_URL = 'https://api.github.com/graphql';
 
 const httpLink = new HttpLink({
